@@ -9,8 +9,8 @@
 ## 수행 체크리스트
 - [x] 터미널 기본 조작 및 폴더 구성
 - [x] 권한 변경 실습
-- [ ] Docker 설치 및 기본 운영 명령
-- [ ] 컨테이너 실행 실습
+- [x] Docker 설치 및 기본 운영 명령
+- [x] 컨테이너 실행 실습
 - [ ] Dockerfile 빌드/실행
 - [ ] 포트 매핑 접속(2회)
 - [ ] 바인드 마운트 반영
@@ -18,10 +18,10 @@
 - [ ] Git 설정 + VSCode GitHub 연동
 
 ## Terminal
-[터미널 실습](./docs/terminal-basics.md)
+[Terminal 실습](./docs/terminal-basics.md)
 
 ## Permission
-[권한 실습](./docs/permission.md)
+[Permission 실습](./docs/permission.md)
 
 ## Docker
 [Docker 실습](./docs/docker-basics.md)
