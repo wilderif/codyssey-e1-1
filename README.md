@@ -16,3 +16,6 @@
 - [x] 바인드 마운트 반영
 - [x] 볼륨 영속성
 - [x] Git 설정 + VSCode GitHub 연동
+
+## 터미널 조작
+[터미널 조작 실습](./docs/terminal-basics.md)
