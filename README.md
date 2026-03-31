@@ -8,7 +8,7 @@
 
 ## 수행 체크리스트
 - [x] 터미널 기본 조작 및 폴더 구성
-- [ ] 권한 변경 실습
+- [x] 권한 변경 실습
 - [ ] Docker 설치/점검
 - [ ] hello-world 실행
 - [ ] Dockerfile 빌드/실행
@@ -19,3 +19,6 @@
 
 ## Terminal
 [터미널 실습](./docs/terminal-basics.md)
+
+## Permission
+[권한 실습](./docs/permission.md)
