@@ -15,6 +15,7 @@
 - [x] 포트 매핑 접속
 - [x] 바인드 마운트 반영
 - [x] 볼륨 영속성
+- [x] 트러블슈팅
 - [x] Git 설정 + GitHub 연동
 
 ## Terminal
@@ -29,5 +30,8 @@
 ## Docker 2
 [Docker 실습 2](./docs/docker-basics-2.md)
 
-## Git config and GitHub 연동
+## Troubleshooting
+[트러블슈팅 기록](./docs/troubleshooting.md)
+
+## Git config and GitHub
 [Git config and GitHub 연동 실습](./docs/git-config-github.md)
