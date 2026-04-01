@@ -11,10 +11,10 @@
 - [x] 권한 변경 실습
 - [x] Docker 설치 및 기본 운영 명령
 - [x] 컨테이너 실행 실습
-- [ ] Dockerfile 빌드/실행
-- [ ] 포트 매핑 접속(2회)
-- [ ] 바인드 마운트 반영
-- [ ] 볼륨 영속성
+- [x] Dockerfile 빌드/실행
+- [x] 포트 매핑 접속
+- [x] 바인드 마운트 반영
+- [x] 볼륨 영속성
 - [ ] Git 설정 + VSCode GitHub 연동
 
 ## Terminal
@@ -23,5 +23,8 @@
 ## Permission
 [Permission 실습](./docs/permission.md)
 
-## Docker
-[Docker 실습](./docs/docker-basics.md)
+## Docker 1
+[Docker 실습 1](./docs/docker-basics.md)
+
+## Docker 2
+[Docker 실습 2](./docs/docker-basics-2.md)
