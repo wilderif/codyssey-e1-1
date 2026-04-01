@@ -15,7 +15,7 @@
 - [x] 포트 매핑 접속
 - [x] 바인드 마운트 반영
 - [x] 볼륨 영속성
-- [ ] Git 설정 + VSCode GitHub 연동
+- [x] Git 설정 + GitHub 연동
 
 ## Terminal
 [Terminal 실습](./docs/terminal-basics.md)
@@ -28,3 +28,6 @@
 
 ## Docker 2
 [Docker 실습 2](./docs/docker-basics-2.md)
+
+## Git config and GitHub 연동
+[Git config and GitHub 연동 실습](./docs/git-config-github.md)
