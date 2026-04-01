@@ -17,6 +17,11 @@
 - [x] 볼륨 영속성
 - [x] 트러블슈팅
 - [x] Git 설정 + GitHub 연동
+- [ ] Docker Compose 기초
+- [ ] Docker Compose 멀티 컨테이너
+- [ ] Compose 운영 명령어 습득
+- [ ] Docker 환경 변수 활용
+- [ ] GitHub SSH 키 설정
 
 ## Terminal
 [Terminal 실습](./docs/terminal-basics.md)
