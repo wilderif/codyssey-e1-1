@@ -35,14 +35,14 @@
 ## Docker 2
 [Docker 실습 2](./docs/docker-basics-2.md)
 
+## Docker Compose
+[Docker Compose 실습](./docs/docker-compose-basics.md)
+
 ## Troubleshooting
 [트러블슈팅 기록](./docs/troubleshooting.md)
 
 ## Git config and GitHub
 [Git config and GitHub 연동 실습](./docs/git-config-github.md)
-
-## Docker Compose
-[Docker Compose 실습](./docs/docker-compose-basics.md)
 
 ## GitHub HTTPS vs SSH
 [GitHub HTTPS vs SSH](./docs/github-https-vs-ssh.md)
