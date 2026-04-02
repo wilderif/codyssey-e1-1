@@ -216,6 +216,13 @@ services:
 --env-file 옵션으로 Compose 파일의 변수 치환에 사용할 값을 불러오고, environment 항목을 통해 해당 값들을 컨테이너 내부 환경 변수로 전달합니다.
 (.env 파일을 사용할 때는 --env-file 옵션을 사용하지 않아도 됩니다.)
 
+사용한 .env 파일 예시
+```bash
+APP_MODE=production
+WEB_PORT=8002
+HELPER_PORT=8003
+```
+
 ```bash
 $ docker compose --env-file .env up --build
 Attaching to helper-1, web-1
