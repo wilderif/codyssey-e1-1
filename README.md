@@ -21,7 +21,7 @@
 - [x] Docker Compose 멀티 컨테이너
 - [x] Compose 운영 명령어 습득
 - [x] Docker 환경 변수 활용
-- [ ] GitHub SSH 키 설정
+- [x] GitHub SSH 키 설정
 
 ## Terminal
 [Terminal 실습](./docs/terminal-basics.md)
@@ -43,3 +43,6 @@
 
 ## Docker Compose
 [Docker Compose 실습](./docs/docker-compose-basics.md)
+
+## GitHub HTTPS vs SSH
+[GitHub HTTPS vs SSH](./docs/github-https-vs-ssh.md)
