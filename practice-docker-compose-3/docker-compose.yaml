@@ -1,0 +1,29 @@
+# 실행할 컨테이너 서비스들을 정의합니다.
+services:
+  # 'web'이라는 이름의 메인 애플리케이션 서비스를 선언합니다.
+  web:
+    # ./web 폴더의 Dockerfile을 기반으로 이미지를 빌드합니다.
+    build: ./web
+    # 호스트 포트와 컨테이너 내부 포트를 환경 변수에서 가져와 연결합니다. (기본값 8000)
+    ports:
+      - "${WEB_PORT:-8000}:${WEB_PORT:-8000}"
+    # 컨테이너 내부에 환경 변수를 주입합니다. (.env 파일의 값을 전달)
+    environment:
+      PORT: ${WEB_PORT:-8000}
+      APP_MODE: ${APP_MODE:-development}
+      # 내부 네트워크 안의 다른 서비스 'helper'를 목적지로 하는 URL (환경 변수로 포트 지정, 기본값 8001)
+      HELPER_URL: http://helper:${HELPER_PORT:-8001}
+    # web 컨테이너가 실행되기 전에 helper 서비스가 먼저 실행되도록 실행 순서를 제어합니다.
+    depends_on:
+      - helper
+
+  # 'helper'라는 이름의 보조 서비스를 선언합니다.
+  helper:
+    # ./helper 폴더의 Dockerfile을 기반으로 이미지를 빌드합니다.
+    build: ./helper
+    # 호스트 포트와 컨테이너 내부 포트를 환경 변수에서 가져와 연결합니다. (기본값 8001)
+    ports:
+      - "${HELPER_PORT:-8001}:${HELPER_PORT:-8001}"
+    # 컨테이너 내부에 통신 포트 환경 변수를 주입합니다. (.env 파일의 값을 전달)
+    environment:
+      PORT: ${HELPER_PORT:-8001}

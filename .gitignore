@@ -1,1 +1,4 @@
 tmp.md
+
+.env*
+!.env.example

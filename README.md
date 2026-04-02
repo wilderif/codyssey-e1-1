@@ -17,10 +17,10 @@
 - [x] 볼륨 영속성
 - [x] 트러블슈팅
 - [x] Git 설정 + GitHub 연동
-- [ ] Docker Compose 기초
-- [ ] Docker Compose 멀티 컨테이너
-- [ ] Compose 운영 명령어 습득
-- [ ] Docker 환경 변수 활용
+- [x] Docker Compose 기초
+- [x] Docker Compose 멀티 컨테이너
+- [x] Compose 운영 명령어 습득
+- [x] Docker 환경 변수 활용
 - [ ] GitHub SSH 키 설정
 
 ## Terminal
@@ -40,3 +40,6 @@
 
 ## Git config and GitHub
 [Git config and GitHub 연동 실습](./docs/git-config-github.md)
+
+## Docker Compose
+[Docker Compose 실습](./docs/docker-compose-basics.md)
