@@ -174,7 +174,7 @@ my_test_volume
 
 ```bash
 # 호스트 폴더를 Nginx 컨테이너의 기본 웹루트에 바인드 마운트
-$ docker run -d -p 8080:80 -v "$(pwd)/pratice/bind-test":/usr/share/nginx/html --name my-bind-nginx my-nginx:1.0
+$ docker run -d -p 8080:80 -v "$(pwd)/practice/bind-test":/usr/share/nginx/html --name my-bind-nginx my-nginx:1.0
 {container_id}
 ```
 
