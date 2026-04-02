@@ -132,6 +132,8 @@ data
 root@dbe10df12cf9:/app# cd data
 root@dbe10df12cf9:/app/data# ls
 test.txt
+root@dbe10df12cf9:/app/data# cat test.txt
+Volume Storage Test!
 ```
 
 #### 컨테이너 삭제
