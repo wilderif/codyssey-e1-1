@@ -31,7 +31,7 @@ Nginx 웹 서버는 자신이 바라보고 있는 기본 디렉토리(`/usr/shar
    * `docker exec` 명령어로 Nginx 컨테이너 내부 쉘로 들어가 해당 웹루트 경로를 나열해 본 결과, 디렉토리가 완전히 비어 있음(`index.html`이 없음)을 확인.
 2. **컨테이너 실행 설정(Mount Source) 확인**
    * `docker inspect` 명령어로 띄워진 컨테이너를 검사해 보니, 호스트 측 경로가 `practice-docker/bind_test_dir`로 마운트되어 있었음.
-   * 반면에 실제로 명령어를 타이핑하여 `index.html` 파일을 생성한 곳은 워크스페이스의 루트 레벨에 있는 `bind-test` 폴더였음.
+   * 반면에 실제로 명령어를 타이핑하여 `index.html` 파일을 생성한 곳은 `pratice/bind-test` 폴더였음.
    * 결론적으로 **경로 오타 및 싱크 어긋남**으로 인해 빈 폴더가 마운트되고 있었음이 입증됨.
 
 #### 해결
@@ -42,8 +42,8 @@ Nginx 웹 서버는 자신이 바라보고 있는 기본 디렉토리(`/usr/shar
 # 1. 잘못된 경로로 마운트된 기존 에러 컨테이너 철거
 $ docker rm -f my-bind-nginx
 
-# 2. 로컬 파일이 저장되어 있는 'bind-test' 경로로 명확하게 일치시켜 컨테이너 재가동
-$ docker run -d -p 8080:80 -v $(pwd)/bind-test:/usr/share/nginx/html --name my-bind-nginx my-nginx:1.0
+# 2. 로컬 파일이 저장되어 있는 'pratice/bind-test' 경로로 명확하게 일치시켜 컨테이너 재가동
+$ docker run -d -p 8080:80 -v $(pwd)/pratice/bind-test:/usr/share/nginx/html --name my-bind-nginx my-nginx:1.0
 
 # 3. 실시간 바인드 마운트 정상 동기화 여부 검증
 $ curl http://localhost:8080

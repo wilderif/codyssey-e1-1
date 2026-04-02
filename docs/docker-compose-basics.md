@@ -10,7 +10,7 @@ Docker Compose는 다중 컨테이너 Docker 애플리케이션을 정의하고 
 
 docker-compose.yml의 기본 구조를 학습하고, 단일 서비스를 Compose로 실행합니다.
 
-**practice-docker-compose-1** 디렉토리에서 실습
+**pratice/practice-docker-compose-1** 디렉토리에서 실습
 
 #### docker-compose.yml 작성
 
@@ -53,7 +53,7 @@ $ curl http://localhost:8000
 웹 서버와 임의의 보조 서비스, 2개 이상을 Compose로 함께 실행하고 네트워크 통신을 확인합니다.
 * **배움 포인트:** 네트워크/서비스 디스커버리 개념 맛보기
 
-**practice-docker-compose-2** 디렉토리에서 실습
+**pratice/practice-docker-compose-2** 디렉토리에서 실습
 
 #### 멀티 컨테이너용 docker-compose.yml 작성
 
@@ -175,7 +175,7 @@ $ docker compose down
 Dockerfile 또는 Compose에서 환경 변수를 주입해 서버 포트/모드를 변경해봅니다.
 * **배움 포인트:** 설정과 코드의 분리
 
-**practice-docker-compose-3** 디렉토리에서 실습
+**pratice/practice-docker-compose-3** 디렉토리에서 실습
 
 #### 환경 변수 주입 설정 (.env 또는 docker-compose.yml)
 
