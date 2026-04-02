@@ -32,7 +32,7 @@ $ git branch -M main
 $ git push -u origin main
 ```
 
-#### 연동 증거 (스크린샷)
+#### 연동 증거
 ```bash
 $ git remote -v
 origin  {remote-repository-url} (fetch)
