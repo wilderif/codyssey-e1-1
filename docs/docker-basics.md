@@ -86,8 +86,8 @@ $ docker ps
 CONTAINER ID   IMAGE          COMMAND   CREATED   STATUS    PORTS     NAMES
 
 $ docker ps -a
-CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
-7b3285ee8f52   hello-world   "/hello"   47 seconds ago   Exited (0) 47 seconds ago             {container_name}
+CONTAINER ID     IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+{container_id}   hello-world   "/hello"   47 seconds ago   Exited (0) 47 seconds ago             {container_name}
 ```
 
 #### 컨테이너 중지 및 삭제

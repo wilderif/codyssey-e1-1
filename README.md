@@ -13,14 +13,14 @@
 - [x] 컨테이너 실행 실습
 - [x] Dockerfile 빌드/실행
 - [x] 포트 매핑 접속
-- [x] 바인드 마운트 반영
 - [x] 볼륨 영속성
-- [x] 트러블슈팅
-- [x] Git 설정 + GitHub 연동
+- [x] 바인드 마운트 반영
 - [x] Docker Compose 기초
 - [x] Docker Compose 멀티 컨테이너
 - [x] Compose 운영 명령어 습득
 - [x] Docker 환경 변수 활용
+- [x] 트러블슈팅
+- [x] Git 설정 + GitHub 연동
 - [x] GitHub SSH 키 설정
 
 ## Terminal
